@@ -9,7 +9,7 @@ def display_lines(image, lines):
 	if lines is not None:
 		for x in range(0, len(lines)):
 		  for x1, y1, x2, y2 in lines[x]:
-		    cv2.line(line_image, (x1, y1), (x2, y2), (255, 0, 0), 10)
+		    cv2.line(line_image, (x1, y1), (x2, y2), (255, 0, 0), 8)
 	return line_image
 
 # Path of image directory
